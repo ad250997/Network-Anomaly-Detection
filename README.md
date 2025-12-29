@@ -82,8 +82,8 @@ The system is deployed as a **Flask-based REST API**:
 ### 1. Clone the repository
 
 ```
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/ad250997/Network-Anomaly-Detection.git
+cd Network-Anomaly-Detection
 ```
 
 ### 2. Create and activate a virtual environment
