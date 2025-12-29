@@ -24,12 +24,12 @@ Network intrusions are difficult to detect because malicious traffic often resem
 - **Binary:** F1-score, ROC-AUC  
 - **Multiclass:** Macro F1-score, per-class recall  
 
-**Final Scores for best bodels:**  
+### Final Scores for best bodels:
+- **Binary (Logistic):** Test F1-score = 0.98, Test ROC-AUC = 0.9969
+- **Multiclass (Linear SVC):**
 
-**Binary (Logistic):** Test F1-score = 0.98, Test ROC-AUC = 0.9969
-
-**Multiclass (Linear SVC):**
   Macro F1 = 0.89
+
   Per-class recall: DoS = 1.00, Probe = 1.00, R2L = 0.96, U2R = 1.00
 
 
