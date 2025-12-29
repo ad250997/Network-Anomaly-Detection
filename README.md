@@ -75,7 +75,7 @@ The system is deployed as a **Flask-based REST API**:
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone <your-repo-url>
 cd <repo-name>
 ```
