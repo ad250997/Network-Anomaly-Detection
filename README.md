@@ -1,7 +1,7 @@
 # Network Intrusion Detection System (ML)
 
 ## Summary
-This project implements an **end-to-end machine learning pipeline** to detect malicious network activity and classify attack types. It demonstrates structured problem-solving across data analysis, statistical validation, modeling, and deployment, with a focus on interpretability and real-world usability.
+This project implements an **end-to-end machine learning pipeline** to detect Network Anomalies and classify attack types.
 
 ---
 
@@ -24,8 +24,12 @@ Network intrusions are difficult to detect because malicious traffic often resem
 - **Binary:** F1-score, ROC-AUC  
 - **Multiclass:** Macro F1-score, per-class recall  
 
-**Final Scores Achieved:**  
-*(Add final results here)*
+**Final Scores for best bodels:**  
+**Binary (Logistic):** Test F1-score = 0.98, Test ROC-AUC = 0.9969
+**Multiclass (Linear SVC):**
+  Macro F1 = 0.89
+  Per-class recall: DoS = 1.00, Probe = 1.00, R2L = 0.96, U2R = 1.00
+
 
 ---
 
